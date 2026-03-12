@@ -1,0 +1,5 @@
+pyinstaller --onefile --windowed --add-data="cierre.txt;." rante_00.py
+
+pyinstaller --onefile --windowed --add-data "cierre.txt;." --add-data "rein.txt;." entradas_pae.py
+
+
